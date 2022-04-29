@@ -178,5 +178,11 @@ section.destaque{
 	position: absolute;
 	left: 0;
 	top: 0;
+	nav-down: 70px;
 }
 
+.box-filme{
+	height: 450px;
+	width: 210px;
+	display: block;
+}

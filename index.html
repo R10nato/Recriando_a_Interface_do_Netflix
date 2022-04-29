@@ -4,7 +4,11 @@
 	
 	<title>Clone Netflix</title>
 	<meta charset="utf-8">
+
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<!--Responsividade da tela-->
+	<link rel="stylesheet" href="css/responsive.css">
 
 	<link rel="stylesheet" href="css/owl/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl/owl.theme.default.min.css">	
@@ -53,7 +57,7 @@
 			Your browser does not support HTML5 video
 		</video>
 				
-		<div class="overlay"></div>
+		
 		<div class="center">
 			<div class="texto-destaque" >
 				<h2>Saint Seya: The Lost Canvas</h2>
@@ -69,27 +73,33 @@
 
 	<!--Seção de vitrine de Filmes-->
 	<section class="vitrine">
-		<div class="vitrine-flex">
-			<div class="vitrine-sigle-banner">
-				<div class="vitrine-wrape" style="background-image: url('images/Dragon_Ball_Broly.jpg');"></div>
-			</div>
-			<div class="vitrine-sigle-banner">
-				<div class="vitrine-wrape" style="background-image: url('images/Dragon\ ball\ kai.jpg');"></div>
-			</div>
-			<div class="vitrine-sigle-banner">
-				<div class="vitrine-wrape" style="background-image: url('images/Dragon_Ball_Super.jpg');"></div>
-			</div>
-			<div class="vitrine-sigle-banner">
-				<div class="vitrine-wrape" style="background-image: url('images/Dragon_Ball_Z.jpg');"></div>
-			</div>
-			<div  class="vitrine-sigle-banner">
-				<div class="vitrine-wrape" style="background-image: url('images/the\ lost\ canvas.jpg');"></div>
-			</div>
-			<div class="vitrine-sigle-banner"> 
-				<div class="vitrine-wrape" style="background-image: url('images/Naruto.jpg');"></div>
-			</div>
-			
-		</div><!--Vitrine flex-->
+		<div class="carrosel-filmes">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<img class="box-filme" src="images/Dragon ball kai.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/Dragon_Ball_Broly.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/Dragon_Ball_Super.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/Dragon_Ball_Z.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/Naruto.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/the lost canvas.jpg" alt="" srcset="">
+				</div>
+				<div class="item">
+					<img class="box-filme" src="images/Dragon ball kai.jpg" alt="" srcset="">
+				</div>
+
+
+			</div><!-- owl-carousel owl-theme  -->
+		</div><!--Carrosel de Filmes-->
 	</section><!--Vitrine-->
 
 	<!--Para acrescentar icones externos-->
@@ -97,6 +107,7 @@
 
 	<script src="js//owl/jquery.min.js"></script>
 	<script src="js/owl/owl.carousel.min.js"></script>
+	<script src="js/owl/setup.js"></script>
 
 	
 
